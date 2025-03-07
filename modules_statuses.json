@@ -1,5 +1,6 @@
 {
     "User": true,
     "Product": true,
-    "Blog": true
+    "Blog": true,
+    "Category": true
 }

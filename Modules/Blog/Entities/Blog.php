@@ -13,7 +13,7 @@ use Spatie\Translatable\HasTranslations;
 class Blog extends Model
 {
     use HasFactory;
-//    use HasTranslations;
+    use HasTranslations;
     use HasSlug;
     use HasImage;
 

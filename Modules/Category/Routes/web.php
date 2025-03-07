@@ -11,8 +11,8 @@
 |
 */
 
-use Modules\Product\Http\Controllers\ProductController;
+use Modules\Category\Http\Controllers\CategoryController;
 
 Route::prefix('soluna')->name('admin:')->middleware(['auth', 'role_or_permission:developer|admin|show dashboard'])->group(function() {
-    Route::resource('/products', ProductController::class);
+    Route::resource('/categorys', CategoryController::class);
 });

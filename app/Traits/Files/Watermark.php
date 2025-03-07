@@ -3,7 +3,7 @@
 namespace App\Traits\Files;
 
 use Exception;
-use Intervention\Image\ImageManagerStatic as Image;
+use Intervention\Image\ImageManager as Image;
 
 trait Watermark
 {
