@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller;
 use Modules\Blog\Http\Requests\BlogStoreRequest;
 use Modules\Blog\Http\Requests\BlogUpdateRequest;
 use Modules\Blog\Entities\Blog;
-use Modules\Core\Traits\Files\ImageCompressor;
+use App\Traits\Files\ImageCompressor;
 use Nwidart\Modules\Facades\Module;
 
 class BlogController extends Controller
