@@ -1,3 +1,5 @@
 {
-    "User": true
+    "User": true,
+    "Product": true,
+    "Blog": true
 }
